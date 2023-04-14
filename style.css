@@ -1,0 +1,29 @@
+body{
+    background-color: #eeff00;
+}
+
+h1{
+    color:rgb(66, 43, 246);
+    background-color: whitesmoke;
+    
+}
+h1 button{
+    float:right;
+}
+p{
+    padding-top:10px;
+    font-size: 20px;
+}
+canvas{
+    border:2px solid white;
+    border-radius:20px ;
+    margin-top:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow: 0 0 40px grey}
+    to{box-shadow: 0 0 40px white;}
+}
